@@ -3,7 +3,6 @@ from gpiozero import LED
 from time import sleep
 import socket
 
-
 #SETUP BLYNK
 BLYNK_AUTH = 'YfJ_ySzoYcKfl2Z9LEE1rDa8XQN6VgX8' 
 
