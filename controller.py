@@ -152,7 +152,7 @@ def write_virtual_pin_handler(pin, value):
         
     else:
         
-        print("Fucked Up")#IF THIS CODE RUN YOU FUCKED UP 
+        print("ERROR MAGNET CODE")
 
 
 
