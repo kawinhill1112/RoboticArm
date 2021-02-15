@@ -175,7 +175,7 @@ def connect_handler():
     send_url = f"http://{local_ip}:8080/?action=stream"
     print(f"url = {send_url}")
     blynk.set_property("V7", "url", send_url) #send url to blynk
-    print("OK")
+
 
     
 
