@@ -166,7 +166,7 @@ def write_virtual_pin_handler(pin, value):
     blynk.set_property("V7", "url", send_url)
 
 
-
+#connect event
 @blynk.handle_event("connect")
 def connect_handler():
     print(CONNECT_PRINT_MSG)
