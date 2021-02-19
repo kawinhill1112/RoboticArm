@@ -172,7 +172,7 @@ def connect_handler():
     print(CONNECT_PRINT_MSG)
     print('Sending this camera stream url')
     local_ip = socket.gethostbyname(socket.gethostname())
-    send_url = f"http://{local_ip}:8080/?action=stream"
+    send_url = f"http://{local_ip}:5555/?action=stream" #Change to 5555 beacause 8080 was used by blynk
     print(f"url = {send_url}")
     blynk.set_property("V7", "url", send_url) #send url to blynk
 
